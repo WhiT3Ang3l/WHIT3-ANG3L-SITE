@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+nav{
+  font-family: 'Fredoka One', cursive;
+  background-color: lightblue;
+  height: 10vh;
+}
+
+.smalllogo{
+  width: 150px;
+  height: 80px;
+  float: left;
+  cursor: pointer;
+  background-size: cover;
+  background-image: url(https://cdn.discordapp.com/attachments/870781954088398859/884120117196259348/Immagine_2021-09-05_185613.png);
+}
+
+#home{
+  float: right;
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+  margin-right: 10px;
+  margin-top: 2vh;
+  background-color: lightgreen;
+  border-radius: 10px;
+  width: 190px;
+  text-align: center;
+}
+
+#gear{
+  float: right;
+  margin-right: 30px;
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+  margin-top: 2vh;
+  background-color: lightgreen;
+  border-radius: 10px;
+  width: 160px;
+  text-align: center;
+}
+
+#info{
+  margin-top: 2vh;
+  border-radius: 25px;
+  float: right;
+  margin-right: 30px;
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+  background-color: lightgreen;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+section{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gta{
+  border-radius: 10px;
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGm3Pw8E4oaSLaqIq5m92o3-3Ilt2tUHF0Fw&usqp=CAU);
+}
+
+#gta{
+  text-align: center;
+  margin-top: 100%;
+}
+
+.valorant{
+  margin-left: 30px;
+  border-radius: 10px;
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-image: url(https://marcocusano.cloud/www/www.valorantitalia.it/templates/valorantitalia/v1/img/agents/home_slider/cover_jett.jpg);
+}
+
+#valorant{
+  text-align: center;
+  margin-top: 100%;
+}
+
+.r6{
+  margin-left: 30px;
+  border-radius: 10px;
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-image: url(https://s2.gaming-cdn.com/images/products/406/orig/gioco-uplay-tom-clancys-rainbow-six-siege-cover.jpg);
+}
+
+#r6{
+  text-align: center;
+  margin-top: 100%;
+}

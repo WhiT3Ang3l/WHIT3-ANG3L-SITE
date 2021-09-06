@@ -1,0 +1,100 @@
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  background-color: white
+}
+
+nav{
+  font-family: 'Fredoka One', cursive;
+  background-color: lightblue;
+  height: 10vh;
+}
+
+.smalllogo{
+  width: 150px;
+  height: 80px;
+  float: left;
+  cursor: pointer;
+  background-size: cover;
+  background-image: url(https://cdn.discordapp.com/attachments/870781954088398859/884120117196259348/Immagine_2021-09-05_185613.png);
+}
+
+#giochi{
+  float: right;
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+  margin-right: 10px;
+  margin-top: 2vh;
+  background-color: lightgreen;
+  border-radius: 10px;
+  width: 190px;
+  text-align: center;
+}
+
+#gear{
+  float: right;
+  margin-right: 30px;
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+  margin-top: 2vh;
+  background-color: lightgreen;
+  border-radius: 10px;
+  width: 160px;
+  text-align: center;
+}
+
+#info{
+  margin-top: 2vh;
+  border-radius: 25px;
+  float: right;
+  margin-right: 30px;
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+  background-color: lightgreen;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+#mainText{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Inter', sans-serif;
+  font-size: 57px;
+}
+
+.learnMore{
+  cursor: pointer;
+  background-color: #ff6666;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  font-family: 'Vollkorn', serif;
+  font-size: 20px;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+}
+
+#down {
+ margin-top: 55%;
+ padding-bottom: 25%;
+ text-align: center;
+ font-size: 30px
+}
